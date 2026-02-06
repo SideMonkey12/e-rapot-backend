@@ -10,7 +10,7 @@ It aims to provide a platform to help parents monitor their children's grades an
 
 ## Docs
 
-- overview(/docs/overview.md)
+- overview(https://github.com/SideMonkey12/e-rapot-backend/blob/main/docs/overview.md)
 
 ## Author
 
