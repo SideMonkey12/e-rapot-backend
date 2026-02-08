@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     Application configuration settings loaded from environment variables.
     """
     APP_NAME: str
-    APP_ENV: str 
+    APP_ENV: str
 
     DB_HOST: str
     DB_PORT: int
