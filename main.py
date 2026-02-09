@@ -3,8 +3,12 @@ from fastapi import FastAPI, status
 from fastapi.responses import JSONResponse
 from app.core.config import settings
 from app.db.db import engine
+from app.src.routes.AuthRoute import router as auth_router
 
 app = FastAPI(title=settings.APP_NAME)
+
+# Include routers
+app.include_router(auth_router, prefix="/api/auth", tags=["auth"])
 
 @app.get('/health')
 async def health_check():
